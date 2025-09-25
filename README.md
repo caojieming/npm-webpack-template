@@ -3,10 +3,12 @@ Repository Template for npm Webpack stuff.
 
 ## npm scripts included:
 `npm run build`<br>
-The equivalent of `npx webpack --config webpack.prod.js`. Bundles everything in `src` into `dist`.
+The equivalent of `npx webpack --config webpack.prod.js`.<br>
+Bundles everything in `src` into `dist`.
 
 `npm run dev`<br>
-The equivalent of `npx webpack serve --config webpack.dev.js`. Opens a webpack server for viewing changes in real time without needing to build. Server link: http://localhost:8080/
+The equivalent of `npx webpack serve --config webpack.dev.js`.<br>
+Opens a webpack server for viewing changes in real time without needing to build. Server link: <a href="http://localhost:8080/" target="_blank">http://localhost:8080/</a>
 
 ## To remove image file loader module:
 This template includes the module "html-loader" for loading image files.
