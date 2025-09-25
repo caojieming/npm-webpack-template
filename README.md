@@ -8,7 +8,8 @@ Bundles everything in `src` into `dist`.
 
 `npm run dev`<br>
 The equivalent of `npx webpack serve --config webpack.dev.js`.<br>
-Opens a webpack server for viewing changes in real time without needing to build. Server link: <a href="http://localhost:8080/" target="_blank">http://localhost:8080/</a>
+Opens a webpack server for viewing changes in real time without needing to build.<br>
+Server link: http://localhost:8080/
 
 ## To remove image file loader module:
 This template includes the module "html-loader" for loading image files.
