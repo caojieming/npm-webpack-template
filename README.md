@@ -1,6 +1,8 @@
 # npm-webpack-template
 Repository Template for npm Webpack stuff.
 
+Run `npm install` to install (or update) all dev dependencies.
+
 ## npm scripts included:
 `npm run build`<br>
 The equivalent of `npx webpack --config webpack.prod.js`.<br>
@@ -21,3 +23,14 @@ or<br>
 
 This command tells npm to remove the package from your `package.json`, `npm-shrinkwrap.json`, and `package-lock.json` files.<br>
 The `--save` is optional in most cases (it's the default option).
+
+## List of packages used:
+- webpack
+- webpack-cli
+- html-webpack-plugin
+- style-loader
+- css-loader
+- html-loader
+- webpack-dev-server
+- eslint
+- prettier
