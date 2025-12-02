@@ -24,6 +24,15 @@ or<br>
 This command tells npm to remove the package from your `package.json`, `npm-shrinkwrap.json`, and `package-lock.json` files.<br>
 The `--save` is optional in most cases (it's the default option).
 
+
+<br><br><br>
+# Info to keep in projects using this template:
+
+## npm (dev) commands
+`npm install` to install (or update) all dev dependencies.<br>
+`npm run dev` to open a webpack server for viewing changes in real time without needing to build (server link: http://localhost:8080/).<br>
+`npm run build` to bundle everything in `src` into `dist`.
+
 ## List of packages used:
 - webpack
 - webpack-cli

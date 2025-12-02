@@ -1,3 +1,40 @@
-body {
-  background-color: rebeccapurple;
+/* This is here purely for development, comment it out for release */
+* {
+	outline: 1px solid red;
+	margin: 0px;
 }
+
+body {
+	display: flex;
+	flex-direction: column;
+  	/* background-color: aliceblue; */
+}
+
+#center {
+	display: flex;
+}
+
+#header, #footer, #sidebar, #content {
+	padding: 20px;
+}
+
+#header {
+	
+}
+
+#footer {
+	
+}
+
+#sidebar {
+	width: 15%;
+	
+}
+
+#content {
+	width: 85%;
+	
+	background-color: aliceblue;
+}
+
+
