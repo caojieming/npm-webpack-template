@@ -1,5 +1,5 @@
 # npm-webpack-template
-Repository Template for npm Webpack stuff.
+Repository Template for npm Webpack projects.
 
 Run `npm install` to install (or update) all dev dependencies.
 
@@ -12,6 +12,9 @@ Bundles everything in `src` into `dist`.
 The equivalent of `npx webpack serve --config webpack.dev.js`.<br>
 Opens a webpack server for viewing changes in real time without needing to build.<br>
 Server link: http://localhost:8080/
+
+`npm test`<br>
+Runs all jest tests (see "./src/tests/model.test.js" for an example).
 
 ## To remove image file loader module:
 This template includes the module "html-loader" for loading image files.
@@ -31,15 +34,29 @@ The `--save` is optional in most cases (it's the default option).
 ## npm (dev) commands
 `npm install` to install (or update) all dev dependencies.<br>
 `npm run dev` to open a webpack server for viewing changes in real time without needing to build (server link: http://localhost:8080/).<br>
-`npm run build` to bundle everything in `src` into `dist`.
+`npm run build` to bundle everything in `src` into `dist`.<br>
+`npm test` to run all jest tests.
 
 ## List of packages used:
 - webpack
+  - module bundler
 - webpack-cli
+  - module bundler
 - html-webpack-plugin
+  - bundling for html
 - style-loader
+  - bundling for css
 - css-loader
+  - bundling for css
 - html-loader
+  - bundling of images loaded via image files (images from urls are covered by css-loader)
 - webpack-dev-server
+  - previewing webapp before building it
 - eslint
+  - linter, code styling
 - prettier
+  - formatter, code layout formatter
+- jest
+  - testing functions
+- babel
+  - to fix jest's issues with imports
