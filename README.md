@@ -34,7 +34,10 @@ The `--save` is optional in most cases (it's the default option).
 # Info to keep in projects using this template:
 
 ## npm (dev) commands
-`npm install` to install (or update) all dev dependencies.<br>
+`npm install` to install all dev dependencies.<br>
+`npm outdated` to check if any packages are outdated.<br>
+`npm update` to update outdated packages.
+
 `npm run dev` to open a webpack server for viewing changes in real time without needing to build (server link: http://localhost:8080/).<br>
 `npm run build` to bundle everything in `src` into `dist`.<br>
 `npm test` to run all jest tests.
