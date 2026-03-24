@@ -1,7 +1,5 @@
 # npm-webpack-template
 
-IMPORTANT NOTE: currently in the process of re-coding a lot of this template since I actually know how to use webpack now, template will be completely disfunctional until I finish re-coding
-
 Repository Template for npm Webpack projects.
 
 Run `npm install` to install all packages/dev dependencies.<br>

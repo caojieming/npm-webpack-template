@@ -1,4 +1,4 @@
-import { sum } from '../models/model.js';
+import { sum } from '../global-assets/functions/sum.js';
 
 // basically just an example test, use as a template and delete as needed
 test('adds 1 + 2 to equal 3', () => {

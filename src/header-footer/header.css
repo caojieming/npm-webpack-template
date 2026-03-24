@@ -1,0 +1,84 @@
+#header {
+    background-color: var(--header-color);
+    color: var(--header-text-color);
+    font-family: 'Figtree', sans-serif;
+
+    display: flex;
+    justify-content: space-between;
+    /* top, right, bottom, left */
+    padding: 10px 150px 10px 150px;
+
+    /* make header stick to the top of the page */
+    position: sticky;
+    top: 0;
+
+    /* horizontal-offset, vertical-offset, blur, spread, color */
+    box-shadow: 0 1px 10px -6px gray;
+
+    /* goes over everything */
+    z-index: 100;
+}
+
+#header .logo {
+    display: block;
+
+    /* note: setting margin to auto vertically centers it */
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 90px;
+}
+
+#header .links {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 10px;
+    /* removes bullet point */
+    list-style: none;
+}
+
+#header .links a {
+    font-size: 18px;
+
+    /* remove link underlines */
+    text-decoration: none;
+
+    /* purely to center the link text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+}
+
+@media (max-width: 1200px) {
+    #header {
+        padding: 10px 50px 10px 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 20px 10px 20px;
+        position: static;
+        /* sticky might be annoying on very small screens if header is tall */
+    }
+
+    #header .logo {
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    #header .links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #header .links a {
+        font-size: 18px;
+        padding: 5px;
+    }
+}

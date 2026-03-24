@@ -1,0 +1,51 @@
+* {
+    /* This is here purely for development, comment it out for release */
+	/* outline: 1px solid red; */
+
+	margin: 0px;
+}
+
+
+body {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    /* display: flex;
+    flex-direction: column; */
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+button, a {
+    cursor: pointer;
+    transition: filter 0.4s ease;
+}
+button:hover, a:hover {
+    filter: saturate(0.2);
+}
+
+
+
+.title {
+    font-size: 42px;
+    font-weight: 900;
+}
+
+/* class header, not to be confused with id header (which is the header for the entire site) */
+.header {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.subheader {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.subtext {
+    font-size: 16px;
+    font-weight: 100;
+}

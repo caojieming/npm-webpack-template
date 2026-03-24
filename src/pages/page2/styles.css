@@ -1,0 +1,29 @@
+/* This is here purely for development, comment it out for release */
+* {
+	/* outline: 1px solid red; */
+	margin: 0px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+  	/* background-color: aliceblue; */
+}
+
+#main {
+	display: flex;
+}
+
+/* #sidebar {
+	width: 15%;
+	padding: 20px;
+} */
+
+#content {
+	/* width: 85%;
+	background-color: aliceblue; */
+
+	padding: 20px;
+}
+
+

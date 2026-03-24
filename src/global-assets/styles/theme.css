@@ -1,0 +1,56 @@
+:root {
+    /* theme colors by color name */
+    --light-blue: #ebf3ff;
+    --blue: #3882F6;
+    --dark-blue: #003060;
+    --dark-gray-blue: #2f3c4e;
+    /* --tan: #f9e672; */
+    --light-blue-gray: #eff2f6;
+    --gray: #6a6a6a;
+    --soft-gray: #a6a9ad;
+    --yellow: #ffc400;
+    --green: #27c200;
+
+
+    /* theme colors by color function */
+
+    /* general/global */
+    --bg0: white;
+    --bg1: var(--light-blue-gray);
+    --bg2: var(--light-blue);
+
+    --txt0: black;
+    --txt1: white;
+    /* --txt2: var(--dark-blue-gray); */
+
+
+    /* site header and footer */
+    --header-color: white;
+    --header-text-color: var(--dark-blue);
+
+    --footer-color: var(--dark-blue);
+    --footer-text-color: white;
+
+
+    /* home page */
+    --sec1-btn-color: var(--blue);
+    --sec1-btn-text-color: white;
+
+    --sec2-story-border-color: black;
+    --sec2-img-border-color: var(--gray);
+    --sec2-text-color: var(--gray);
+
+    --sec3-grid-color: black;
+    --sec3-descript-col-color: #d8dce1;
+    --sec3-detail-col-color: #e9edf4;
+
+    --sec4-text-color: var(--gray);
+    --sec4-btn-color: var(--blue);
+    --sec4-btn-text-color: white;
+
+    
+    /* resources page */
+    --challenge: var(--yellow);
+    --solution: var(--green);
+    --results: var(--blue);
+}
